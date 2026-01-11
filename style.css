@@ -74,7 +74,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 7px;
+    gap: 10px;
     font-size: 13px;
     white-space: nowrap;   /*keeps everything in one line */
     overflow-x: auto;      /* allows scroll if screen is very small */
@@ -149,6 +149,7 @@ li {
         font-size: 13px;
     }
 }
+
 
 
 
