@@ -77,7 +77,7 @@ li {
 
 /* Internship header layout */
 .internship-header {
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
@@ -169,6 +169,7 @@ li {
         background-attachment: scroll;
     }
 }
+
 
 
 
