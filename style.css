@@ -72,7 +72,7 @@ li {
 
 .contact {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 6px;
     text-align: center;
@@ -149,6 +149,7 @@ li {
         font-size: 13px;
     }
 }
+
 
 
 
