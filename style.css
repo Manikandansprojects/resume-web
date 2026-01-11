@@ -92,25 +92,14 @@ li {
 .internship-meta {
     font-size: 14px;
     color: #555;
-    white-space: nowrap; /* 
+    white-space: nowrap; /* keeps location & duration on same line */
 }
 
-
-.location {
-    font-size: 14px;
-    color: #555;
-}
-
-.duration {
-    font-size: 14px;
-    color: #555;
-}
-
-
+/* ================= MOBILE ================= */
 @media (max-width: 768px) {
 
     body {
-        background-attachment: scroll; /* Fix mobile issue */
+        background-attachment: scroll;
     }
 
     .container {
@@ -133,19 +122,6 @@ li {
     .contact {
         font-size: 7px;
         line-height: 1.6;
-        gap: 2px;
-    }
-
-    .contact-item {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        white-space: nowrap;
-    }
-
-    .contact img {
-        width: 14px;
-        height: 14px;
     }
 
     ul {
@@ -156,7 +132,6 @@ li {
         font-size: 14px;
     }
 
-@media (max-width: 768px) {
     .internship-header {
         flex-direction: column;
         align-items: flex-start;
@@ -168,11 +143,6 @@ li {
 }
 
 
-@media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-    }
-}
 
 
 
