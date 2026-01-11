@@ -88,6 +88,11 @@ li {
     margin: 0;
     font-size: 16px;
 }
+.meta {
+    font-size: 14px;
+    color: #555;
+    white-space: nowrap; /* 🔒 keeps location & duration in same line */
+}
 
 .location {
     font-size: 14px;
@@ -153,6 +158,9 @@ li {
         flex-direction: column;   /* Stack on mobile */
         align-items: flex-start;
     }
+    .meta {
+        font-size: 13px;
+    }
 }
 
 
@@ -161,6 +169,7 @@ li {
         background-attachment: scroll;
     }
 }
+
 
 
 
