@@ -124,7 +124,7 @@ li {
     }
 
     .contact {
-        font-size: 9px;
+        font-size: 7px;
         line-height: 1.6;
         gap: 2px;
     }
@@ -161,6 +161,7 @@ li {
         background-attachment: scroll;
     }
 }
+
 
 
 
