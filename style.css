@@ -78,21 +78,23 @@ li {
 /* Internship header layout */
 .internship-header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 6px;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .internship-header h3 {
     margin: 0;
     font-size: 16px;
 }
-.meta {
+
+.internship-meta {
     font-size: 14px;
     color: #555;
-    white-space: nowrap; 
+    white-space: nowrap; /* 
 }
+
 
 .location {
     font-size: 14px;
@@ -154,11 +156,13 @@ li {
         font-size: 14px;
     }
 
+@media (max-width: 768px) {
     .internship-header {
-        flex-direction: column;   /* Stack on mobile */
+        flex-direction: column;
         align-items: flex-start;
     }
-    .meta {
+
+    .internship-meta {
         font-size: 13px;
     }
 }
@@ -169,6 +173,7 @@ li {
         background-attachment: scroll;
     }
 }
+
 
 
 
