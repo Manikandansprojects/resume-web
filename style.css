@@ -114,7 +114,7 @@ li {
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
     body {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 
     .container {
@@ -149,6 +149,7 @@ li {
         font-size: 13px;
     }
 }
+
 
 
 
