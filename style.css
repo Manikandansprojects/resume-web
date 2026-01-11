@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins";
+    font-family: "Segoe UI", Tahoma, sans-serif;
     background: #f4f6f8;
     margin: 0;
     padding: 0;
@@ -160,3 +160,4 @@ li {
         background-attachment: scroll;
     }
 }
+
