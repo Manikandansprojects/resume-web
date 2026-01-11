@@ -1,0 +1,162 @@
+body {
+    font-family: "Poppins";
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+
+    background-image: url("../images/background.jpg");
+    background-size: cover;          /* Full screen */
+    background-position: center;     /* Center image */
+    background-repeat: no-repeat;    /* No repeat */
+    background-attachment: fixed;    /* 🔒 FIXED background */
+}
+
+.container {
+    max-width: 900px;
+    background: #fff8f8;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+.contact a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Optional profile image */
+.profile {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.contact {
+    font-size: 14px;
+    color: #333;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #0a66c2;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+/* Internship header layout */
+.internship-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.internship-header h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.location {
+    font-size: 14px;
+    color: #555;
+}
+
+.duration {
+    font-size: 14px;
+    color: #555;
+}
+
+
+@media (max-width: 768px) {
+
+    body {
+        background-attachment: scroll; /* Fix mobile issue */
+    }
+
+    .container {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .contact {
+        font-size: 9px;
+        line-height: 1.6;
+        gap: 8px;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        white-space: nowrap;
+    }
+
+    .contact img {
+        width: 14px;
+        height: 14px;
+    }
+
+    ul {
+        padding-left: 18px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .internship-header {
+        flex-direction: column;   /* Stack on mobile */
+        align-items: flex-start;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+}
