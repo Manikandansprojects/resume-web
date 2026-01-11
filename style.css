@@ -72,11 +72,14 @@ li {
 
 .contact {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
-    gap: 6px;
-    text-align: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    white-space: nowrap;   /* 🔥 keeps everything in one line */
+    overflow-x: auto;      /* allows scroll if screen is very small */
 }
+
 
 
 .contact a {
@@ -113,17 +116,15 @@ li {
 
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
+
     body {
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
 
     .container {
+        width: calc(100% - 24px);
         padding: 16px;
         margin: 12px auto;
-    }
-
-    .contact {
-        font-size: 12px;
     }
 
     h1 {
@@ -137,9 +138,8 @@ li {
     li {
         font-size: 14px;
     }
-}
 
-
+    /* Internship layout */
     .internship-header {
         flex-direction: column;
         align-items: flex-start;
@@ -149,6 +149,8 @@ li {
         font-size: 13px;
     }
 }
+
+
 
 
 
