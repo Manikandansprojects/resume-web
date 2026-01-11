@@ -77,10 +77,10 @@ li {
 
 /* Internship header layout */
 .internship-header {
-    display: inline;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     gap: 6px;
 }
 
@@ -169,6 +169,7 @@ li {
         background-attachment: scroll;
     }
 }
+
 
 
 
