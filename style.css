@@ -91,7 +91,7 @@ li {
 .meta {
     font-size: 14px;
     color: #555;
-    white-space: nowrap; /* 🔒 keeps location & duration in same line */
+    white-space: nowrap; 
 }
 
 .location {
@@ -169,6 +169,7 @@ li {
         background-attachment: scroll;
     }
 }
+
 
 
 
