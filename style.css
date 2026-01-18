@@ -5,7 +5,8 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url("background.jpg");
+    
+    background-color: #f5f7fa;
     background-size: cover;          /* Full screen */
     background-position: center;     /* Center image */
     background-repeat: no-repeat;    /* No repeat */
@@ -149,6 +150,7 @@ li {
         font-size: 13px;
     }
 }
+
 
 
 
