@@ -6,7 +6,7 @@ body {
     padding: 0;
 
     
-    background-color: #f5f7fa;
+    background-color: #f0f4f8;
     background-size: cover;          /* Full screen */
     background-position: center;     /* Center image */
     background-repeat: no-repeat;    /* No repeat */
@@ -150,6 +150,7 @@ li {
         font-size: 13px;
     }
 }
+
 
 
 
